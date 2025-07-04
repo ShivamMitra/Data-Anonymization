@@ -76,10 +76,9 @@ You can email him at [EMAIL] or call [PHONE].
 
 
 📌 Roadmap
-
----
+```
 **-Add support for offline inference using Hugging Face Transformers
 -Extend NER coverage with domain-specific models (e.g., medical, legal)
 -Develop a Streamlit-based web UI
 -Add support for multiple languages**
----
+```
