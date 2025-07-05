@@ -67,6 +67,7 @@ You can email him at [EMAIL] or call [PHONE].
 
 
 ### 🔍 System Requirements
+
 -Python 3.8+
 -Internet connection (for Hugging Face API calls)
 -No GPU required
@@ -74,6 +75,7 @@ You can email him at [EMAIL] or call [PHONE].
 
 
 ### 📌 Roadmap
+
 -Add support for offline inference using Hugging Face Transformers
 -Extend NER coverage with domain-specific models (e.g., medical, legal)
 -Develop a Streamlit-based web UI
