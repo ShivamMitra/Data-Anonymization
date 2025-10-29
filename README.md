@@ -26,7 +26,7 @@ cd bert-data-anonymizer
 pip install -r requirements.txt
 ```
 3. **Configure environment**
-Create a .env file in the root directory and add your Hugging Face API token:
+- Create a .env file in the root directory and add your Hugging Face API token:
 
 ```
 HF_TOKENS=your_huggingface_api_key
