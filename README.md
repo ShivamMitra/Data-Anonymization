@@ -21,18 +21,19 @@ A lightweight, scalable, and privacy-compliant **text anonymization tool** power
 git clone https://github.com/your-username/bert-data-anonymizer.git
 cd bert-data-anonymizer
 ```
-2. Install dependencies
+2. **Install dependencies**
 ```
 pip install -r requirements.txt
 ```
-3.Configure environment Create a .env file in the root directory and add your Hugging Face API token:
+3. **Configure environment**
+Create a .env file in the root directory and add your Hugging Face API token:
 ```
 HF_TOKENS=your_huggingface_api_key
 🔐 You can get your token from https://huggingface.co/settings/tokens
 ```
 
 
-📦 Usage
+## 📦 Usage
 python data_anonymizer.py
 Or use the module programmatically:
 ```
@@ -44,7 +45,7 @@ print(anonymized)
 ```
 
 
-🧪 Example Input/Output
+## 🧪 Example Input/Output
 Input:
 ```
 John Smith works at Microsoft in New York City.
@@ -56,7 +57,7 @@ You can email him at [EMAIL] or call [PHONE].
 ```
 
 
-🧱 Project Structure
+## 🧱 Project Structure
 
 ```
 ├── data_anonymizer.py   # Main anonymization logic
@@ -66,7 +67,7 @@ You can email him at [EMAIL] or call [PHONE].
 ```
 
 
-🔍 System Requirements
+## 🔍 System Requirements
 ```
 -Python 3.8+
 -Internet connection (for Hugging Face API calls)
@@ -74,7 +75,7 @@ You can email him at [EMAIL] or call [PHONE].
 ```
 
 
-📌 Roadmap
+## 📌 Roadmap
 ```
 -Add support for offline inference using Hugging Face Transformers
 -Extend NER coverage with domain-specific models (e.g., medical, legal)
