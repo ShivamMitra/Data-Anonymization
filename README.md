@@ -83,3 +83,5 @@ You can email him at [EMAIL] or call [PHONE].
 -Develop a Streamlit-based web UI
 -Add support for multiple languages
 ```
+## License
+This project is licensed under the MIT License – see LICENSE for details.
